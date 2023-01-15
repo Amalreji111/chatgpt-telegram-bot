@@ -22,7 +22,7 @@ This is a sample Telegram bot built using Nest.js and the [node-telegram-bot-api
 
 ### Running the bot
 
-1. Start the bot: `npm start`
+1. Start the bot: `nest start`
 2. Start a conversation with your bot on Telegram
 
 ## Features
