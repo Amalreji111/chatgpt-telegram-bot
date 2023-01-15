@@ -12,11 +12,11 @@ This is a sample Telegram bot built using Nest.js and the [node-telegram-bot-api
 
 ### Installation
 
-1. Clone the repository: `git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git`
+1. Clone the repository: `git clone https://github.com/Amalreji111/chatgpt-telegram-bot.git`
 2. Install the dependencies: `npm install`
 3. Create a `.env` file in the root directory and add the following environment variables:
     ```
-    TELEGRAM_BOT_TOKEN=YOUR_BOT_TOKEN
+    TELEGRAM_API_KEY=YOUR_BOT_TOKEN
     OPENAI_API_KEY=YOUR_API_KEY
     ```
 
