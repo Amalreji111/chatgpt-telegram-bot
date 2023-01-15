@@ -1,5 +1,7 @@
 import { Injectable } from '@nestjs/common';
-import * as TelegramBot from 'node-telegram-bot-api';
+// import * as TelegramBot from 'node-telegram-bot-api';
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const TelegramBot = require('node-telegram-bot-api');
 import { Configuration, OpenAIApi } from 'openai';
 import { ConfigService } from '@nestjs/config';
 @Injectable()
